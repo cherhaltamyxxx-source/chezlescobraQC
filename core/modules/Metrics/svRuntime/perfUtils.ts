@@ -130,7 +130,7 @@ export const fetchFxsMemory = async (fxsPid?: number) => {
             }
             return;
         } else {
-            throw error;
+            throw error; SVGTransformList
         }
     }
 }
