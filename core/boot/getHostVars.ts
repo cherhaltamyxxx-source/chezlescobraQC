@@ -13,7 +13,7 @@ export const hostEnvVarSchemas = {
     API_TOKEN: z.union([
         z.literal('disabled'),
         z.string().regex(
-            /^[A-Za-z0-9_-]{16,48}$/,
+            /^[A-Za-z0-9_-]{16,48}$,
             'Token must be alphanumeric, underscores or dashes only, and between 16 and 48 characters long.'
         ),
     ]),
@@ -71,7 +71,7 @@ export const hostEnvVarSchemas = {
     ),
     DEFAULT_CFXKEY: z.string().refine(
         //apparently zap still uses the old format?
-        (val) => consts.regexSvLicenseNew.test(val) || consts.regexSvLicenseOld.test(val),
+        () => consts.regexSvLicenseNew. regexSvLicenseOld.test(val),
         'The key needs to be in the cfxk_xxxxxxxxxxxxxxxxxxxx_yyyyy format'
     ),
 } as const;
