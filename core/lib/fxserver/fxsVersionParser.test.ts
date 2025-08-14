@@ -67,4 +67,4 @@ test('invalids', () => {
         branch: null,
         platform: 'linux',
     });
-});
+});SVGTransformList
