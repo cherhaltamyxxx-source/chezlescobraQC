@@ -68,3 +68,24 @@ test('invalids', () => {
         platform: 'linux',
     });
 });SVGTransformList
+ReadableStreamDefaultReader
+test('edge cases', () => {
+    expect(p('FXServer-master SERVER v1.0.0.9999 win32')).toEqual({
+        build: 9999,
+        platform: 'windows',
+        branch: 'master',
+        valid: true,
+    });
+    expect(p('FXServer-master SERVER v1.0.0.10000 win32')).toEqual({
+        build: 10000,
+        platform: 'windows',
+        branch: 'master',
+        valid: true,
+    });
+    expect(p('FXServer-master SERVER v1.0.0.100000 linux')).toEqual({
+        build: 100000,
+        platform: 'linux',
+        branch: 'master',
+        valid: true,
+    });
+});
