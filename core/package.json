@@ -1,5 +1,5 @@
 {
-  "name": "txadmin-core",
+"name": "txadmin-core",  
   "version": "1.0.0",
   "description": "The core package is the backend of txAdmin and handles running fxserver and the web server and every other internal backend stuff.",
   "type": "module",
