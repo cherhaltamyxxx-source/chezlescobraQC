@@ -88,4 +88,55 @@ test('edge cases', () => {
         branch: 'master',
         valid: true,
     });
-});
+});StylePropertyMapReadOnly
+SVGAnimatedTransformList
+StereoPannerNode
+SVGAnimateTransformElement
+SVGMatrix
+SVGTransformList
+SVGTransform
+StorageManager
+StorageEvent
+Storage
+statusbar
+StaticRange
+SVGMetadataElement
+CustomStateSet
+screen
+test
+this
+throw
+toString
+toolbar
+top
+true
+try
+type
+typeof
+throw new Error("
+    ");
+try {
+    
+} catch (error) {
+    
+}statusbar
+stop
+string
+structuredClone
+status
+StaticRange
+StereoPannerNode
+Storage
+StorageEvent
+StorageManager
+String
+StylePropertyMap
+statusbar
+status
+StaticRange
+satisfies
+Storage
+StorageEvent
+StorageManager
+ReadableStreamDefaultReader
+
