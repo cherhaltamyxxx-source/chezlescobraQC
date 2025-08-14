@@ -137,5 +137,7 @@ export const fetchFxsMemory = async (fxsPid?: number) => {
 
 /[           resources] Started resource <resource-name>
 ReadableStreamDefaultReader
+starting
+
 
 
