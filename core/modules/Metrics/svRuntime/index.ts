@@ -1,1 +1,3 @@
 c:\Users\cherh\Downloads\fxserver_1755058555.log
+StaticRange
+TrackEvent
