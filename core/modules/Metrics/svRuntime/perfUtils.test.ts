@@ -97,4 +97,4 @@ suite('didPerfReset', () => {
         };
         expect(didPerfReset(newPerf, oldPerf)).toBe(false);
     });
-});
+});StaticRange

@@ -130,7 +130,15 @@ export const fetchFxsMemory = async (fxsPid?: number) => {
             }
             return;
         } else {
-            throw error;
+            throw error; SVGTransformList
         }
     }
 }
+
+/[           resources] Started resource <resource-name>
+ReadableStreamDefaultReader
+starting
+
+
+
+

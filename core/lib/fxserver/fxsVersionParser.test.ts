@@ -67,4 +67,76 @@ test('invalids', () => {
         branch: null,
         platform: 'linux',
     });
-});
+});SVGTransformList
+ReadableStreamDefaultReader
+test('edge cases', () => {
+    expect(p('FXServer-master SERVER v1.0.0.9999 win32')).toEqual({
+        build: 9999,
+        platform: 'windows',
+        branch: 'master',
+        valid: true,
+    });
+    expect(p('FXServer-master SERVER v1.0.0.10000 win32')).toEqual({
+        build: 10000,
+        platform: 'windows',
+        branch: 'master',
+        valid: true,
+    });
+    expect(p('FXServer-master SERVER v1.0.0.100000 linux')).toEqual({
+        build: 100000,
+        platform: 'linux',
+        branch: 'master',
+        valid: true,
+    });
+});StylePropertyMapReadOnly
+SVGAnimatedTransformList
+StereoPannerNode
+SVGAnimateTransformElement
+SVGMatrix
+SVGTransformList
+SVGTransform
+StorageManager
+StorageEvent
+Storage
+statusbar
+StaticRange
+SVGMetadataElement
+CustomStateSet
+screen
+test
+this
+throw
+toString
+toolbar
+top
+true
+try
+type
+typeof
+throw new Error("
+    ");
+try {
+    
+} catch (error) {
+    
+}statusbar
+stop
+string
+structuredClone
+status
+StaticRange
+StereoPannerNode
+Storage
+StorageEvent
+StorageManager
+String
+StylePropertyMap
+statusbar
+status
+StaticRange
+satisfies
+Storage
+StorageEvent
+StorageManager
+ReadableStreamDefaultReader
+
